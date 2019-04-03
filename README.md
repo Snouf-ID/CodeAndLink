@@ -10,3 +10,9 @@ uint64_t c;
 
 c = ((uint64_t)a << 32) | b;  
 ````
+## angle entre deux vecteur
+https://openclassrooms.com/forum/sujet/fonction-calcul-d-angle-entre-2-vecteurs-22322  
+https://www.mvps.org/directx/articles/math/dot/index.htm  
+
+![text][angle.png]  
+
