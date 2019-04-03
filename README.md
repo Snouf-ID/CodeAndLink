@@ -14,5 +14,5 @@ c = ((uint64_t)a << 32) | b;
 https://openclassrooms.com/forum/sujet/fonction-calcul-d-angle-entre-2-vecteurs-22322  
 https://www.mvps.org/directx/articles/math/dot/index.htm  
 
-![text][angle.png]  
-
+![text](angle.png)  
+arcos(produit scalaire / vector1.lenght*vector2.lenght) = angle en radian = (angle en radian * 180/3.14) degre  
