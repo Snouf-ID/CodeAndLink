@@ -1,1 +1,12 @@
 # CodeAndLink
+
+## faire une clée unique avec deux unsigned int (ou uint32 = pareil)
+https://stackoverflow.com/questions/6064566/concatenate-two-32bit-numbers-to-get-a-64bit-result
+```c++
+#include <stdint.h>
+
+uint32_t a, b;
+uint64_t c;
+
+c = ((uint64_t)a << 32) | b;  
+````
