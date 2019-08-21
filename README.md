@@ -1,5 +1,9 @@
 # CodeAndLink
 
+## Pour faire son IDE
+https://docs.microsoft.com/fr-fr/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes
+https://docs.microsoft.com/en-us/windows/win32/psapi/collecting-memory-usage-information-for-a-process
+
 ## Faire une clée unique avec deux unsigned int (ou uint32 = pareil)
 https://stackoverflow.com/questions/6064566/concatenate-two-32bit-numbers-to-get-a-64bit-result
 ```c++
