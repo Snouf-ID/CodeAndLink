@@ -1,5 +1,12 @@
 # CodeAndLink
 
+## Regex
+    std::regex mregex("<(.*)/>");
+		std::regex mregex("<(.*)>(.*)</(.*)>");
+		std::regex mregex("<(.*)>");
+		std::regex mregex("</(.*)>");
+		std::regex mregex("(.+)=\"(.+)\"");
+
 ## Pour faire son IDE
 https://docs.microsoft.com/fr-fr/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes
 https://docs.microsoft.com/en-us/windows/win32/psapi/collecting-memory-usage-information-for-a-process
