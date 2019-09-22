@@ -1,5 +1,17 @@
 # CodeAndLink
 
+## Question
+```c++
+const std::vector<XmlNode*> XmlNode::getChilds(const std::string& iName)
+{
+	if (_childs.find(iName) != _childs.end())
+	{
+		return _childs[iName];
+	}
+	std::vector<XmlNode*> empty;
+	return empty;
+}
+```
 ## Regex
 	std::regex mregex("<(.*)/>");
 	std::regex mregex("<(.*)>(.*)</(.*)>");
