@@ -1,5 +1,7 @@
 # CodeAndLink
 
+http://www.codersblock.org/blog/multiplayer-fps-part-1
+
 ## Question
 ```c++
 const std::vector<XmlNode*> XmlNode::getChilds(const std::string& iName)
