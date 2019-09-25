@@ -14,6 +14,9 @@ const std::vector<XmlNode*> XmlNode::getChilds(const std::string& iName)
 	return empty;
 }
 ```
+
+Toujours les && et pas les || car compilateur peut cut avant.  
+
 ## Regex
 	std::regex mregex("<(.*)/>");
 	std::regex mregex("<(.*)>(.*)</(.*)>");
