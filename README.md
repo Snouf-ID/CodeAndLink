@@ -2,18 +2,9 @@
 
 http://www.codersblock.org/blog/multiplayer-fps-part-1
 
-## Question
-```c++
-const std::vector<XmlNode*> XmlNode::getChilds(const std::string& iName)
-{
-	if (_childs.find(iName) != _childs.end())
-	{
-		return _childs[iName];
-	}
-	std::vector<XmlNode*> empty;
-	return empty;
-}
-```
+## raccourci visual studio  
+
+CTRL+F7 -> rebuild only current cpp
 
 Toujours les && et pas les || car compilateur peut cut avant.  
 
